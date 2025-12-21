@@ -52,26 +52,23 @@ Gmail DOM → Chrome Extension → React UI → Spring Boot API → Groq LLM →
 
 ```
 Email-Assistant/
-│── backend/
+│── email-assistant-sb(backend)/
 │   ├── src/main/java/... (Spring Boot API)
-│   ├── application.yml
+│   ├── application.properties
 │   └── pom.xml
 │
-│── extension/
+│── email-assistant-ext(extension)/
 │   ├── manifest.json
-│   ├── content-script.js
-│   ├── background.js (service worker)
-│   └── popup/
-│       ├── index.html
-│       ├── main.jsx
-│       └── App.jsx
+│   ├── content.js
+│   ├── email-assistant.png    
 │
-│── ui/
+│── email-assistant-react(ui)/
 │   ├── vite.config.js
 │   ├── package.json
 │   └── src/
-│       ├── components/
-│       ├── pages/
+│       ├── index.css
+│       ├── index.jsx
+│       └── App.css
 │       └── App.jsx
 │
 └── README.md
