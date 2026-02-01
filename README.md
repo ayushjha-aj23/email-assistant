@@ -196,12 +196,6 @@ Feel free to fork the repo and open issues.
 
 ---
 
-## 📜 License
-
-MIT License.
-
----
-
 ## 👨‍💻 Author
 
 **Ayush Jha**
